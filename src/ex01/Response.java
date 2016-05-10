@@ -3,6 +3,7 @@ package ex01;
 import java.io.*;
 
 /**
+ * response 对象
  * Created by rain on 16-5-3.
  */
 public class Response {
