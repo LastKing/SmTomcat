@@ -60,7 +60,7 @@ public class HttpServer1 {
 
                 //判断是否为servlet,否则为 静态资源
                 if (request.getUri().startsWith("/servlet")) {
-                    ServletProcessorl processorl = new ServletProcessorl();
+                    ServletProcessor1 processor = new ServletProcessor1();
                     processor.process(request, response);
                 } else {
                     StaticResourceProcessor processor = new StaticResourceProcessor();
